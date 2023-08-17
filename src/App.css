@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 200px;
+    height: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 5px;
+    border-radius: 5px;
+ 
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px !important;
+    text-decoration: none;
+    display: block !important;
+    text-align: left;
+    border-radius: 5px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+ 
+  .dropdown-content a:hover {
+    background-color: #D3F3Df;
+  }
+  
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+.upper{
+    /* border: 2px solid pink; */
+    /* display: block; */
+   width: 96%;
+    margin:10px 10px 10px 30px !important;
+  box-shadow: 1px 1px 1px 1px rgb(230, 219, 219);
+    border-radius:10px ;
+    position:fixed;
+   z-index:1000;
+   background-color: white;
+    top:10px;
+  
+    
+}.left{
+    /* border: 2px solid green; */
+    display: inline-block;
+    margin: 10px 10px;
+    margin-left: 30px;
+}
+.mid{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    width: 50%;
+   margin-left: 100px;
+  margin-top: 15px;
+  margin-bottom:15px;  
+}.right{
+    /* border: 2px solid blue; */
+    display: inline-block;
+  margin-left:150px;
+  padding: 10px;
+  margin-top: 10px;
+}.navbar li a{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+     padding-top: 10px;
+    color: black;
+}.navbar li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}.cart-logo{
+    color: #111212;
+    
+ }.right-item{
+     padding: 5px;
+    margin: 1px;
+    display: inline;
+}.logo{
+    width: 150px;
+    margin-left: 25px;
+    filter: invert(100%);
+    
+}button.btn1{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    
+}
+button.btn2{
+    background-color: rgb(134, 239, 172);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+button.btn2:hover{
+background-color: rgb(153, 237, 184);
+border: none;
+}
+button.btn1:hover{
+background-color: white;
+border: none;
+}.discord{
+  color: white !important;
+  background-color:#7289da;
+}.dcicon{
+  color: #fafafa;
+  margin-right: 10px;
+}.discord:hover{
+  background-color:#7289da !important;
+}
+.accordion-item{
+z-index: 0 !important;
+background-color: transparent !important;
+}
+  
+
